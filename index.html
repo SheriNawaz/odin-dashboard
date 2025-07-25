@@ -3,8 +3,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+  <div id="side-bar">
+    <h2>Dashboard</h2>
+    <div class="nav-item">🏠 Home</div>
+    <div class="nav-item">👤 Profile</div>
+    <div class="nav-item">✉️ Messages</div>
+    <div class="nav-item">🕒 History</div>
+    <div class="nav-item">📋 Tasks</div>
+    <div class="nav-item">👥 Communities</div>
+    <div class="nav-item">⚙️ Settings</div>
+    <div class="nav-item">❓ Support</div>
+    <div class="nav-item">🛡️ Privacy</div>
+  </div>
+
+  <div id="container">
+    <div id="top-bar">
+      <input type="text" placeholder="Search..."/>
+      <div>
+        <button>New</button>
+        <button>Upload</button>
+        <button>Share</button>
+      </div>
+    </div>
+
+    <h3>Your Projects</h3>
+    <div id="projects">
+      <div class="project-card">
+        <h4>Super Cool Project</h4>
+        <p>Sed tempus ut lacus ut scelerisque...</p>
+        <div class="card-icons">⭐ 👁️ 💡</div>
+      </div>
+      <div class="project-card">
+        <h4>Less Cool Project</h4>
+        <p>Nullam condimentum ipsum ut lectus...</p>
+        <div class="card-icons">⭐ 👁️ 💡</div>
+      </div>
+      <div class="project-card">
+        <h4>Impossible App</h4>
+        <p>In hac habitasse platea dictumst...</p>
+        <div class="card-icons">⭐ 👁️ 💡</div>
+      </div>
+      <div class="project-card">
+        <h4>Easy Peasy App</h4>
+        <p>Etiam cursus eros ac efficitur...</p>
+        <div class="card-icons">⭐ 👁️ 💡</div>
+      </div>
+      <div class="project-card">
+        <h4>Ad Blocker</h4>
+        <p>Quisque eget rutrum nisl...</p>
+        <div class="card-icons">⭐ 👁️ 💡</div>
+      </div>
+      <div class="project-card">
+        <h4>Money Maker</h4>
+        <p>Praesent convallis, libero quis...</p>
+        <div class="card-icons">⭐ 👁️ 💡</div>
+      </div>
+    </div>
+
+    <div id="widgets">
+      <div id="announcements">
+        <h4>Announcements</h4>
+        <div class="announcement-item">
+          <h5>Site Maintenance</h5>
+          <p>Vestibulum condimentum tellus lacus...</p>
+        </div>
+        <div class="announcement-item">
+          <h5>Community Share Day</h5>
+          <p>Nam vel lectus tincidunt...</p>
+        </div>
+        <div class="announcement-item">
+          <h5>Updated Privacy Policy</h5>
+          <p>Phasellus efficitur nisl...</p>
+        </div>
+      </div>
+
+      <div id="trending">
+        <h4>Trending</h4>
+        <div class="trending-item">
+          <img src="https://via.placeholder.com/30" alt="tegan" />
+          <span>@tegan</span> - World Peace Builder
+        </div>
+        <div class="trending-item">
+          <img src="https://via.placeholder.com/30" alt="morgan" />
+          <span>@morgan</span> - Super Cool Project
+        </div>
+        <div class="trending-item">
+          <img src="https://via.placeholder.com/30" alt="kendall" />
+          <span>@kendall</span> - Life Changing App
+        </div>
+        <div class="trending-item">
+          <img src="https://via.placeholder.com/30" alt="alex" />
+          <span>@alex</span> - No Traffic Maker
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
